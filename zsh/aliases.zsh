@@ -3,6 +3,14 @@
 # Don't change. The following determines where Magus is installed.
 magus=$HOME/.magus
 
+alias reload='source ~/.bashrc && source ~/.bash_profile'
+alias tms='ssh theron@theronsminecraft.com'
+alias acepta='ssh theron@166.78.149.233'
+alias ll='ls -l'
+alias c='clear'
+alias mu='~/common.sh'
+alias rgs='rvm gemset list && rvm list'
+
 # YADR support
 alias yav='yadr vim-add-plugin'
 alias ydv='yadr vim-delete-plugin'
@@ -54,7 +62,7 @@ alias cl='clear'
 alias gz='tar -zcvf'
 
 # Ruby
-alias c='rails c' # Rails 3
+# alias c='rails c' # Rails 3
 alias co='script/console --irb=pry' # Rails 2
 alias ts='thin start'
 alias ms='mongrel_rails start'

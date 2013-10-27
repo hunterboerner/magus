@@ -109,7 +109,7 @@
 [core]
   autocrlf = false
   editor = vim
-  excludesfile = ~/.magus/git/gitignore
+	excludesfile = /Users/theron/.gitignore
 [advice]
   statusHints = false
 [diff]
