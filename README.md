@@ -1,4 +1,3 @@
-
     `MMb     dMM'                                    
      MMM.   ,PMM   Like Janus, but with more Magic!  
      M`Mb   d'MM    ___     __     ___   ___   ____  
@@ -16,7 +15,7 @@
     # Like Janus, but with more Magic.
     # The ultimate dotfiles distribution.
 
-      sh -c "`curl -fsSL https://raw.github.com/marioricalde/magus/magus/install.sh`"
+      sh -c "`curl -fsSL https://raw.github.com/hunterboerner/magus/magus/install.sh`"
 
 
 **Important**: As of right now this is only compatible with MacOSX. Although we **definitely** want to support every *nix system out there.
