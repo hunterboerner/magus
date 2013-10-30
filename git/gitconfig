@@ -124,3 +124,5 @@
   path = .gitconfig.user
 [credential]
 	helper = osxkeychain
+[user]
+	name = hunterboerner
