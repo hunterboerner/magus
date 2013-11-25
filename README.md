@@ -18,6 +18,7 @@
       sh -c "`curl -fsSL https://raw.github.com/hunterboerner/magus/magus/install.sh`"
 
 
+
 **Important**: As of right now this is only compatible with MacOSX. Although we **definitely** want to support every *nix system out there.
 
 **Always be sure to run `rake update` after pulling to ensure plugins are updated**
