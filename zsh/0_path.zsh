@@ -2,4 +2,4 @@
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=$PATH:$HOME/.magus/bin:$HOME/.magus/bin/magus
 export PATH=$PATH:~/bin
-export CC=gcc-4.6
+export CC=gcc
