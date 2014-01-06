@@ -64,7 +64,7 @@ function prompt_theron_setup {
   # ruby info (rvm, rbenv)
   zstyle ':prezto:module:ruby:info:version' format '%v'
 
-  PROMPT="${__PROMPT_THERON_COLORS[5]}%n%f at ${__PROMPT_THERON_COLORS[2]}%m%f in ${__PROMPT_THERON_COLORS[5]}%~%f "'$git_info[prompt]'${__PROMPT_THERON_COLORS[1]}"%fusing "'%F{blue}${ruby_info[version]}'"
+  PROMPT="${__PROMPT_THERON_COLORS[5]}%n%f at ${__PROMPT_THERON_COLORS[2]}%m%f in ${__PROMPT_THERON_COLORS[5]}%c%f "'$git_info[prompt]'${__PROMPT_THERON_COLORS[1]}"%fusing "'%F{blue}${ruby_info[version]}'"
 λ %f"
 }
 
