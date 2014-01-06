@@ -6,3 +6,5 @@ if [ -d $HOME/.zsh.after/ ]; then
 fi
 
 alias gs='git status -sb'
+
+cd ..; cd -
