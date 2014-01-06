@@ -5,4 +5,4 @@ if [ -d $HOME/.zsh.after/ ]; then
   fi
 fi
 
-git=hub
+alias gs='git status -sb'
