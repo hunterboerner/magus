@@ -52,13 +52,13 @@ Installation is automated via `rake` and the `yadr` command. To get
 started please run:
 
 ```bash
-sh -c "`curl -fsSL https://raw.github.com/marioricalde/magus/magus/install.sh`"
+sh -c "`curl -fsSL https://raw.github.com/hunterboerner/magus/magus/install.sh`"
 ```
 
 **Note:** Magus will automatically install all of its subcomponents. If you want to be asked
 about each one, use:
 ```bash
-sh -c "`curl -fsSL https://raw.github.com/marioricalde/magus/magus/install.sh`" -s ask
+sh -c "`curl -fsSL https://raw.github.com/hunterboerner/magus/magus/install.sh`" -s ask
 ```
 
 # Additional Installation
