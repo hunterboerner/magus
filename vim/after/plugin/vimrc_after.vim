@@ -4,6 +4,8 @@
 " This loads after the janus plugins so that janus-specific plugin mappings can
 " be overwritten.
 
+:imap jj <Esc>
+
 if filereadable(expand("~/.magus/vim/after/.vimrc.after"))
   source ~/.magus/vim/after/.vimrc.after
 endif
