@@ -3,12 +3,9 @@
 # Don't change. The following determines where Magus is installed.
 magus=$HOME/.magus
 
-alias reload='source ~/.bashrc && source ~/.bash_profile'
-alias tms='ssh theron@theronsminecraft.com'
-alias acepta='ssh theron@166.78.149.233'
+alias gpi='git push -u origin $(git rev-parse --abbrev-ref HEAD)'
 alias ll='ls -l'
 alias c='clear'
-alias mu='~/common.sh'
 alias rgs='rvm gemset list && rvm list'
 
 # YADR support
