@@ -157,12 +157,12 @@ def install_homebrew
     run %{ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"}
   end
 
-  puts
-  puts
-  puts "======================================================"
-  puts "Updating Homebrew."
-  puts "======================================================"
-  run %{brew update}
+  # puts
+  # puts
+  # puts "======================================================"
+  # puts "Updating Homebrew."
+  # puts "======================================================"
+  # run %{brew update}
   puts
   puts
   puts "======================================================"
