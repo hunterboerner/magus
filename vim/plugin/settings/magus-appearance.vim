@@ -1,7 +1,7 @@
 " Make it beautiful - colors and fonts
 
 " http://ethanschoonover.com/solarized/vim-colors-solarized
-colorscheme solarized
+colorscheme default
 set background=dark
 set guifont=PragmataPro:h16,Inconsolata\ XL:h17,Inconsolata:h20,Monaco:h17
 

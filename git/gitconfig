@@ -108,8 +108,7 @@
   default = tracking
 [core]
   autocrlf = false
-  editor = vim
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/theron/.gitignore
 [advice]
   statusHints = false
 [diff]
@@ -131,3 +130,7 @@
 	user = hunterboerner
 [ghi]
 	token = 765e2fe91447aa072c3d9d0b39e366d0dd035dd6
+[git-up "rebase"]
+	log-hook = "echo \"changes on $1:\"; git --no-pager log --oneline --decorate $1..$2; echo \"diff stats\"; git --no-pager diff $1..$2 --stat"
+[hub]
+	protocol = https
