@@ -28,11 +28,6 @@ function prompt_theron_precmd {
   fi
 }
 
-# Show Git branch/tag, or name-rev if on detached head
-function parse_git_branch() {
-  (git rev-parse --abbrev-ref HEAD) 2> /dev/null || echo "%F{white}none"
-}
-
 function prompt_theron_setup {
   setopt LOCAL_OPTIONS
   unsetopt XTRACE KSH_ARRAYS
@@ -66,12 +61,10 @@ function prompt_theron_setup {
   zstyle ':prezto:module:git:info:dirty' format "%F{red}*%f"
   zstyle ':prezto:module:git:info:keys' format 'prompt' 'on %b%D '
 
-  git_branch_info() {echo "${__PROMPT_THERON_COLORS[1]}$(parse_git_branch)%f"}
-
   # ruby info (rvm, rbenv)
   zstyle ':prezto:module:ruby:info:version' format '%v'
 
-  PROMPT="%F{cyan}%n%f at %F{166}%m%f in %U${__PROMPT_THERON_COLORS[5]}%c%f%u "'on $(git_branch_info) '${__PROMPT_THERON_COLORS[1]}"%fusing "'%F{blue}$(rvm current)'"
+  PROMPT="%F{cyan}%n%f at %F{166}%m%f in %U${__PROMPT_THERON_COLORS[5]}%c%f%u "'$git_info[prompt]'${__PROMPT_THERON_COLORS[1]}"%fusing "'%F{blue}${ruby_info[version]}'"
 %F{green}λ %f"
 }
 
