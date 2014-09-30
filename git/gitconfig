@@ -108,7 +108,8 @@
   default = tracking
 [core]
   autocrlf = false
-	excludesfile = /Users/theron/.gitignore
+  editor = vim
+	excludesfile = ~/.gitignore
 [advice]
   statusHints = false
 [diff]
