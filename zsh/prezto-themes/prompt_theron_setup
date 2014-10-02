@@ -57,6 +57,7 @@ function prompt_theron_setup {
   fi
 
   # git
+  zstyle ':prezto:module:git:info' verbose yes
   zstyle ':prezto:module:git:info:branch' format "${__PROMPT_THERON_COLORS[1]}%b%f"
   zstyle ':prezto:module:git:info:dirty' format "%F{red}*%f"
   zstyle ':prezto:module:git:info:keys' format 'prompt' 'on %b%D '
